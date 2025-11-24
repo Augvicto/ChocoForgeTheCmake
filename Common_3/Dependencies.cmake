@@ -1,8 +1,8 @@
-# Dependencies - The-Forge v1.60+
+# Dependencies - ChocoForge v1.60+
 # Third party library imports
 
-set(GRAPHICS_THIRD_PARTY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Graphics/ThirdParty/OpenSource)
-set(RESOURCES_THIRD_PARTY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Resources)
+set(GRAPHICS_THIRD_PARTY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Graphics/ThirdParty/OpenSource)
+set(RESOURCES_THIRD_PARTY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Resources)
 
 # WinPixEventRuntime (Windows only)
 if(WINDOWS)

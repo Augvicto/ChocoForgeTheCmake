@@ -1,25 +1,25 @@
-# TheForge.cmake - The-Forge v1.60+
+# TheForge.cmake - ChocoForge v1.60+
 # Creates OS and Renderer libraries
 
 set(FORGE_INCLUDES
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Application/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Application/Interfaces/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Game/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Game/Interfaces/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Graphics/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Graphics/Interfaces/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/OS/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/OS/Interfaces/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Renderer/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Renderer/Interfaces/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Resources/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Resources/ResourceLoader/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Resources/ResourceLoader/Interfaces/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Resources/AnimationSystem/Animation/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Utilities/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Utilities/Interfaces/
-    ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Utilities/ThirdParty/OpenSource/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Application/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Application/Interfaces/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Game/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Game/Interfaces/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Graphics/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Graphics/Interfaces/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/OS/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/OS/Interfaces/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Renderer/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Renderer/Interfaces/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Resources/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Resources/ResourceLoader/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Resources/ResourceLoader/Interfaces/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Resources/AnimationSystem/Animation/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Utilities/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Utilities/Interfaces/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Utilities/ThirdParty/OpenSource/
     ${RENDER_INCLUDES}
 )
 

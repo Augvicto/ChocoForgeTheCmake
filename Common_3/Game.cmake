@@ -1,7 +1,7 @@
-# Game - The-Forge v1.60+
+# Game - ChocoForge v1.60+
 # Scripting (Lua)
 
-set(GAME_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Game)
+set(GAME_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Game)
 
 # Scripting interfaces
 set(GAME_INTERFACES_FILES

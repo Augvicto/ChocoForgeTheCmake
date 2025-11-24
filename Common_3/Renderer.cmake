@@ -1,10 +1,10 @@
-# Graphics/Renderer - The-Forge v1.60+
+# Graphics/Renderer - ChocoForge v1.60+
 # This file defines the graphics backend files and dependencies
 
-set(GRAPHICS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Graphics)
-set(RENDERER_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Renderer)
-set(RESOURCES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Resources)
-set(TOOLS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Tools)
+set(GRAPHICS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Graphics)
+set(RENDERER_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Renderer)
+set(RESOURCES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Resources)
+set(TOOLS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Tools)
 
 # Core Graphics files
 set(GRAPHICS_CORE_FILES

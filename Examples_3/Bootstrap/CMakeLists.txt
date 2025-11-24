@@ -1,8 +1,8 @@
-# Bootstrap example - minimal The-Forge app
+# Bootstrap example - minimal ChocoForge app
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin")
 
-set(FORGE_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../../The-Forge)
+set(FORGE_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../../ChocoForge)
 set(FORGE_COMMON ${FORGE_ROOT}/Common_3)
 
 set(BOOTSTRAP_SOURCES main.cpp)
@@ -18,7 +18,7 @@ if(TARGET_MACOS)
 
     add_executable(Bootstrap MACOSX_BUNDLE ${BOOTSTRAP_SOURCES} ${BOOTSTRAP_MACOS_DELEGATE} ${BOOTSTRAP_XIB})
     set_target_properties(Bootstrap PROPERTIES
-        MACOSX_BUNDLE_GUI_IDENTIFIER "com.The-Forge.Examples.Bootstrap"
+        MACOSX_BUNDLE_GUI_IDENTIFIER "com.ChocoForge.Examples.Bootstrap"
         MACOSX_BUNDLE_BUNDLE_NAME "Bootstrap"
         MACOSX_BUNDLE_BUNDLE_VERSION "1.0"
         MACOSX_BUNDLE_SHORT_VERSION_STRING "1.0"
@@ -37,7 +37,7 @@ elseif(TARGET_IOS)
 
     add_executable(Bootstrap MACOSX_BUNDLE ${BOOTSTRAP_SOURCES} ${BOOTSTRAP_IOS_DELEGATE} ${BOOTSTRAP_STORYBOARD})
     set_target_properties(Bootstrap PROPERTIES
-        MACOSX_BUNDLE_GUI_IDENTIFIER "com.The-Forge.Examples.Bootstrap"
+        MACOSX_BUNDLE_GUI_IDENTIFIER "com.ChocoForge.Examples.Bootstrap"
         MACOSX_BUNDLE_BUNDLE_NAME "Bootstrap"
         MACOSX_BUNDLE_BUNDLE_VERSION "1.0"
         MACOSX_BUNDLE_SHORT_VERSION_STRING "1.0"

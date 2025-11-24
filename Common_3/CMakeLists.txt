@@ -1,4 +1,4 @@
-# Common_3 CMakeLists.txt - The-Forge v1.60+
+# Common_3 CMakeLists.txt - ChocoForge v1.60+
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

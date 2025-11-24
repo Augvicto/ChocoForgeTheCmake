@@ -1,7 +1,7 @@
-# OS Files - The-Forge v1.60+
-# Based on analysis of The-Forge Xcode projects
+# OS Files - ChocoForge v1.60+
+# Based on analysis of ChocoForge Xcode projects
 
-set(OS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/OS)
+set(OS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/OS)
 
 # OS Interfaces
 set(OS_INTERFACES_FILES

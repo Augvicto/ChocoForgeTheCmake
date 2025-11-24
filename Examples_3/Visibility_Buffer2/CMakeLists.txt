@@ -1,9 +1,9 @@
-# Visibility_Buffer2 example - The-Forge v1.60+
+# Visibility_Buffer2 example - ChocoForge v1.60+
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin")
 
-set(VB2_SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../The-Forge/Examples_3/Visibility_Buffer2/src)
-set(FORGE_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../../The-Forge)
+set(VB2_SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../ChocoForge/Examples_3/Visibility_Buffer2/src)
+set(FORGE_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../../ChocoForge)
 set(FORGE_COMMON ${FORGE_ROOT}/Common_3)
 
 set(VB2_SOURCES
@@ -35,7 +35,7 @@ if(TARGET_MACOS)
 
     add_executable(Visibility_Buffer2 MACOSX_BUNDLE ${VB2_SOURCES} ${VB2_HEADERS} ${VB2_MACOS_DELEGATE} ${VB2_XIB})
     set_target_properties(Visibility_Buffer2 PROPERTIES
-        MACOSX_BUNDLE_GUI_IDENTIFIER "com.The-Forge.Examples.Visibility_Buffer2"
+        MACOSX_BUNDLE_GUI_IDENTIFIER "com.ChocoForge.Examples.Visibility_Buffer2"
         MACOSX_BUNDLE_BUNDLE_NAME "Visibility_Buffer2"
         MACOSX_BUNDLE_BUNDLE_VERSION "1.0"
         MACOSX_BUNDLE_SHORT_VERSION_STRING "1.0"
@@ -55,7 +55,7 @@ elseif(TARGET_IOS)
 
     add_executable(Visibility_Buffer2 MACOSX_BUNDLE ${VB2_SOURCES} ${VB2_HEADERS} ${VB2_IOS_DELEGATE} ${VB2_STORYBOARD})
     set_target_properties(Visibility_Buffer2 PROPERTIES
-        MACOSX_BUNDLE_GUI_IDENTIFIER "com.The-Forge.Examples.Visibility_Buffer2"
+        MACOSX_BUNDLE_GUI_IDENTIFIER "com.ChocoForge.Examples.Visibility_Buffer2"
         MACOSX_BUNDLE_BUNDLE_NAME "Visibility_Buffer2"
         MACOSX_BUNDLE_BUNDLE_VERSION "1.0"
         MACOSX_BUNDLE_SHORT_VERSION_STRING "1.0"

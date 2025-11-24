@@ -1,7 +1,7 @@
-# Utilities - The-Forge v1.60+
+# Utilities - ChocoForge v1.60+
 # FileSystem, Log, Math, Memory, Threading
 
-set(UTIL_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Utilities)
+set(UTIL_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Utilities)
 
 # Utilities interfaces
 set(UTIL_INTERFACES_FILES

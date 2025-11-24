@@ -1,7 +1,7 @@
-# Application - The-Forge v1.60+
+# Application - ChocoForge v1.60+
 # Camera, Fonts, Profiler, Screenshot, UI
 
-set(APP_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../The-Forge/Common_3/Application)
+set(APP_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Application)
 
 # Application interfaces
 set(APP_INTERFACES_FILES

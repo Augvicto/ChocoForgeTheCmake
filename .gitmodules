@@ -1,3 +1,4 @@
-[submodule "The-Forge"]
-	path = The-Forge
-	url = https://github.com/ConfettiFX/The-Forge.git
+[submodule "ChocoForge"]
+	path = ChocoForge
+	url = https://github.com/Augvicto/Choco-Forge.git
+	branch = master

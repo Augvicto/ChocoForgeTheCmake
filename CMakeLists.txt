@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 
-project(The-Forge)
+project(ChocoForge)
 
 # Enable Objective-C/C++ for Apple platforms
 if(APPLE)
@@ -73,7 +73,7 @@ endif()
 
 # Print configuration
 message(STATUS "")
-message(STATUS "The-Forge Configuration:")
+message(STATUS "ChocoForge Configuration:")
 message(STATUS "  Platform: ${CMAKE_SYSTEM_NAME}")
 if(METAL)
     message(STATUS "  API: Metal")

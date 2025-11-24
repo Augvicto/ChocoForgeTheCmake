@@ -4,8 +4,8 @@
 find_package(Python3 REQUIRED COMPONENTS Interpreter)
 set(FSL_PYTHON "${Python3_EXECUTABLE}" CACHE INTERNAL "Python for FSL")
 
-set(FSL_TOOL "${CMAKE_CURRENT_LIST_DIR}/../The-Forge/Common_3/Tools/ForgeShadingLanguage/fsl.py" CACHE INTERNAL "")
-set(FSL_COMMON_DIR "${CMAKE_CURRENT_LIST_DIR}/../The-Forge/Common_3" CACHE INTERNAL "")
+set(FSL_TOOL "${CMAKE_CURRENT_LIST_DIR}/../ChocoForge/Common_3/Tools/ForgeShadingLanguage/fsl.py" CACHE INTERNAL "")
+set(FSL_COMMON_DIR "${CMAKE_CURRENT_LIST_DIR}/../ChocoForge/Common_3" CACHE INTERNAL "")
 
 # compile_fsl_shaders(TARGET <target> SHADERS <list_file> OUTPUT_DIR <dir> LANGUAGE <lang> [WORKING_DIR <dir>])
 function(compile_fsl_shaders)
