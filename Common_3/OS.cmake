@@ -180,6 +180,15 @@ if(LINUX)
     )
 endif()
 
+# Tools - Network and ReloadClient (used by macOSBase and ResourceLoader)
+set(TOOLS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Tools)
+set(OS_TOOLS_FILES
+    ${TOOLS_DIR}/Network/Network.c
+    ${TOOLS_DIR}/Network/Network.h
+    ${TOOLS_DIR}/ReloadServer/ReloadClient.cpp
+    ${TOOLS_DIR}/ReloadServer/ReloadClient.h
+)
+
 # Combined OS files
 set(OS_FILES
     ${OS_INTERFACES_FILES}
@@ -188,6 +197,7 @@ set(OS_FILES
     ${OS_WINDOWSYSTEM_FILES}
     ${OS_CPU_FEATURES_COMMON}
     ${OS_PLATFORM_SPECIFIC_FILES}
+    ${OS_TOOLS_FILES}
 )
 
 # On Apple platforms, enable ARC for Objective-C/C++ files

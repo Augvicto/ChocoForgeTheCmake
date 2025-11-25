@@ -1,12 +1,12 @@
 # PathStatement for CMake macOS builds
-# Path from: build-macos/Examples_3/<Example>/bin/Release/<Example>.app/Contents/Resources/
-# to project root is 8 levels up, then into The-Forge/Art/
+# Path from: build_test/Examples_3/<Example>/bin/Debug/<Example>.app/Contents/Resources/
+# to project root is 8 levels up, then into ChocoForge/Art/
 
-bundled RD_ANIMATIONS = ../../../../../../../../The-Forge/Art/Animation/
-bundled RD_AUDIO = ../../../../../../../../The-Forge/Art/Audio/
-bundled RD_MESHES = ../../../../../../../../The-Forge/Art/Meshes/
-bundled RD_FONTS = ../../../../../../../../The-Forge/Art/Fonts/
-bundled RD_TEXTURES = ../../../../../../../../The-Forge/Art/Textures/dds/
+bundled RD_ANIMATIONS = ../../../../../../../../ChocoForge/Art/Animation/
+bundled RD_AUDIO = ../../../../../../../../ChocoForge/Art/Audio/
+bundled RD_MESHES = ../../../../../../../../ChocoForge/Art/Meshes/
+bundled RD_FONTS = ../../../../../../../../ChocoForge/Art/Fonts/
+bundled RD_TEXTURES = ../../../../../../../../ChocoForge/Art/Textures/dds/
 bundled RD_SCRIPTS = Scripts/
 bundled RD_COMPILED_MATERIALS = CompiledMaterials/
 bundled RD_SHADER_BINARIES = CompiledShaders/

@@ -17,3 +17,8 @@ include(Game.cmake)
 include(Renderer.cmake)
 include(TheForge.cmake)
 include(FSL.cmake)
+
+# Tools (optional)
+include(BunyTools.cmake)
+include(ISPCTexcomp.cmake)
+include(AssetPipeline.cmake)

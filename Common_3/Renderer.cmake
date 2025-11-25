@@ -4,7 +4,6 @@
 set(GRAPHICS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Graphics)
 set(RENDERER_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Renderer)
 set(RESOURCES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Resources)
-set(TOOLS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../ChocoForge/Common_3/Tools)
 
 # Core Graphics files
 set(GRAPHICS_CORE_FILES
@@ -34,13 +33,6 @@ set(RENDERER_VISBUFFER_FILES
     ${RENDERER_DIR}/Interfaces/IVisibilityBuffer2.h
 )
 
-# Tools
-set(TOOLS_NETWORK_FILES
-    ${TOOLS_DIR}/Network/Network.c
-    ${TOOLS_DIR}/Network/Network.h
-    ${TOOLS_DIR}/ReloadServer/ReloadClient.cpp
-    ${TOOLS_DIR}/ReloadServer/ReloadClient.h
-)
 
 # Metal backend (macOS/iOS)
 set(METAL_FILES
@@ -87,7 +79,6 @@ set(RENDERER_SOURCE_FILES
     ${RESOURCE_LOADER_FILES}
     ${RENDERER_PARTICLE_FILES}
     ${RENDERER_VISBUFFER_FILES}
-    ${TOOLS_NETWORK_FILES}
     ${FSL_HEADERS}
 )
 
